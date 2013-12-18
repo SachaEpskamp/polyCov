@@ -1,0 +1,18 @@
+Package: polyCov
+Type: Package
+Title: Estimate polychoric correlations and covariances.
+Version: 0.1
+Date: 2011-05-30
+Author: Sacha Epskamp
+Maintainer: Sacha Epskamp <sacha.epskamp@gmail.com>
+Description: 	This is a very small package with only one function, polyCov(), 
+		designed to simplify the implementation of ordinal multigroup 
+		factor analysis in R. This function can be used to estimate a 
+		polychoric (or tetrachoric) correlation matrix assuming 
+		standardized latent items. If thresholds are given, it estimates 
+		polychoric covariances, means and variances.
+License: GPL-2
+Depends: R (>= 2.12.0), mvtnorm
+LazyLoad: yes
+Packaged: 2011-06-08 21:06:41 UTC; sacha
+ByteCompile: yes
